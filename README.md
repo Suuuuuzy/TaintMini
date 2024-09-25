@@ -102,7 +102,7 @@ Analyze multiple MiniPrograms; Include all sources and sinks; Enable multi-proce
 # generate index
 find /path/to/miniprograms -maxdepth 1 -type d -name "wx*" > index.txt
 # start analysis
-python main.py -i ./index.txt -o ./results -j $(nproc) -b
+python main.py -i ./index.txt -o ./results -j $(nproc) -c config.json
 ```
 
 ## Citation
