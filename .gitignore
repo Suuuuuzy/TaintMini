@@ -2,7 +2,6 @@ pdg_js/__pycache__/
 taint_mini/__pycache__/
 pdg_js/node_modules/
 results/
-random_100_results
 demo_results/
 demo/
-random_all_results/
+*_results/
