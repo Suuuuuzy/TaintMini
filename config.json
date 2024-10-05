@@ -28,5 +28,8 @@
             "wx.navigateToMiniProgram",
             "wx.sendSocketMessage",
             "wx.createUDPSocket"
-          ]
+          ],
+  "component_related":[
+            "web-view"          
+  ]
 }
