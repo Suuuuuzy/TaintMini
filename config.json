@@ -26,10 +26,10 @@
             "wx.request",
             "wx.uploadFile",
             "wx.navigateToMiniProgram",
+            "wx.openEmbeddedMiniProgram",
+            "wx.navigateBackMiniProgram",
+            "wx.postMessageToReferrerMiniProgram",
             "wx.sendSocketMessage",
             "wx.createUDPSocket"
-          ],
-  "component_related":[
-            "web-view"          
-  ]
+          ]
 }

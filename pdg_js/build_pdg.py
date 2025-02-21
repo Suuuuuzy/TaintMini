@@ -152,7 +152,7 @@ def get_data_flow(input_file, benchmarks, store_pdgs=None, check_var=False, beau
 
         unknown_var = []
         try:
-            with utility_df.Timeout(600):  # Tries to produce DF within 10 minutes
+            with utility_df.Timeout(300):  # Tries to produce DF within 10 minutes
                 scopes = [_scope.Scope('Global')]
                 dfg_nodes, scopes = data_flow.df_scoping(cfg_nodes, scopes=scopes,
                                                          id_list=[], entry=1)
